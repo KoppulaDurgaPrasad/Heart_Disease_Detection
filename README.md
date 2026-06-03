@@ -132,13 +132,42 @@ To improve model performance:
 
 Several machine learning algorithms were trained and compared.
 
-| 🧠 Model | 🎯 Accuracy |
-|-----------|------------|
-| Logistic Regression | **86.41% 🏆** |
-| KNN | 85.33% |
-| Naive Bayes | 85.33% |
-| SVM (RBF Kernel) | 84.78% |
-| Decision Tree | 79.35% |
+<div align="center">
+
+<table>
+<tr>
+<th>🧠 Model</th>
+<th>🎯 Accuracy</th>
+</tr>
+
+<tr>
+<td>Logistic Regression</td>
+<td><b>86.41% 🏆</b></td>
+</tr>
+
+<tr>
+<td>KNN</td>
+<td>85.33%</td>
+</tr>
+
+<tr>
+<td>Naive Bayes</td>
+<td>85.33%</td>
+</tr>
+
+<tr>
+<td>SVM (RBF Kernel)</td>
+<td>84.78%</td>
+</tr>
+
+<tr>
+<td>Decision Tree</td>
+<td>79.35%</td>
+</tr>
+
+</table>
+
+</div>
 
 ---
 
@@ -177,18 +206,56 @@ Reasons for Selection:
 
 ### Final Model
 
-| Metric | Value |
-|---------|---------|
-| Algorithm | Logistic Regression |
-| Accuracy | 86.41% |
-| Problem Type | Binary Classification |
+<div align="center">
+
+<table>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Algorithm</td>
+<td>Logistic Regression</td>
+</tr>
+
+<tr>
+<td>Accuracy</td>
+<td>86.41%</td>
+</tr>
+
+<tr>
+<td>Problem Type</td>
+<td>Binary Classification</td>
+</tr>
+
+</table>
+
+</div>
 
 ### Prediction Classes
 
-| Output | Interpretation |
-|---------|----------------|
-| 0 | Low Risk of Heart Disease |
-| 1 | High Risk of Heart Disease |
+<div align="center">
+
+<table>
+<tr>
+<th>Output</th>
+<th>Interpretation</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td>Low Risk of Heart Disease</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>High Risk of Heart Disease</td>
+</tr>
+
+</table>
+
+</div>
 
 ---
 
@@ -250,15 +317,6 @@ streamlit run Heart.py
 
 ---
 
-## 🌐 Deployment
-
-The application is deployed using **Streamlit Community Cloud**.
-
-### Live Application
-
-🔗 https://koppuladurgaprasad-heart-disease-detection-heart-e9d2ig.streamlit.app/
-
----
 
 ## 📸 Application Workflow
 
@@ -279,7 +337,6 @@ The application is deployed using **Streamlit Community Cloud**.
 
 🔗 GitHub: https://github.com/KoppulaDurgaPrasad
 
-</div>
 
 ---
 
@@ -288,3 +345,4 @@ The application is deployed using **Streamlit Community Cloud**.
 If you found this project useful, please consider giving the repository a ⭐ on GitHub.
 
 Contributions, suggestions, and feedback are always welcome.
+</div>
