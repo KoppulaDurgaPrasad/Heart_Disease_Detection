@@ -40,7 +40,7 @@ cols = joblib.load("columns.pkl")
 
 st.sidebar.title("🫀 Model Information")
 st.sidebar.success("Algorithm: Logistic Regression")
-st.sidebar.info("Accuracy: 87%")
+st.sidebar.info("Accuracy: 86.41%")
 st.sidebar.write("Problem Type: Binary Classification")
 st.sidebar.write("Output Classes:")
 st.sidebar.write("• 0 → Low Risk")
@@ -208,6 +208,6 @@ font-size:16px;
 ">
 ❤️ Developed by Durga Prasad<br>
 Heart Disease Prediction System<br>
-Logistic Regression • Accuracy: 87%
+Logistic Regression • Accuracy: 86.41%
 </div>
 """, unsafe_allow_html=True)
